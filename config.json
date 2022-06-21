@@ -1,0 +1,6 @@
+{
+  "key": "YOUR-API-KEY",
+  "overwrite": false,
+  "fileExtension": ".png",
+  "resize": { "method": "scale", "width": 1536 }
+}

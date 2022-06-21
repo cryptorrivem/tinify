@@ -1,0 +1,22 @@
+{
+  "name": "elf-compression",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "layers/**/*",
+      "node_modules/**/*",
+      "src/**/*"
+    ]
+  },
+  "author": "rrivem",
+  "license": "MIT",
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.3.0",
+    "cli-progress": "^3.11.1",
+    "commander": "^9.1.0",
+    "tinify": "^1.6.1"
+  }
+}
