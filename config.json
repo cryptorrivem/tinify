@@ -1,6 +1,9 @@
 {
   "key": "YOUR-API-KEY",
-  "overwrite": false,
-  "fileExtension": ".png",
-  "resize": { "method": "scale", "width": 1536 }
+  "concurrence": 10,
+  "overwrite": true,
+  "inputExtension": ".png",
+  "outputExtension": ".jpg",
+  "resize": { "method": "scale", "width": 1536 },
+  "quality": 90
 }
