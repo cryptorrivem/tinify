@@ -28,7 +28,7 @@ const bar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
 
 (async function () {
   bar.start(files.length, 0);
-  await PromisePool.withConcurrency(10)
+  await PromisePool.withConcurrency(config.concurrence)
     .for(files)
     .handleError(console.error)
     .process(async (file) => {
